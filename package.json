@@ -1,0 +1,21 @@
+{
+  "name": "animal-crossing-tools",
+  "version": "1.0.0",
+  "description": "动物森友会小程序工具集",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NullYing/Animal-Crossing-Tools.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NullYing/Animal-Crossing-Tools/issues"
+  },
+  "homepage": "https://github.com/NullYing/Animal-Crossing-Tools#readme"
+}
