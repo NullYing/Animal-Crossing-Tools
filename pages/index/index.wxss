@@ -1,21 +1,19 @@
 /**index.wxss**/
-.userinfo {
+.tabs {
+  padding-top: 30px;
+  width: 70%;
+}
+
+.nav-class {
+  background: #f2eabc;
+}
+.tab-class {
+  background: #f7f4e5;
+  border-radius: 10px;
+}
+
+.radio-class {
+  padding: 10px 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+  flex-direction: row;
 }

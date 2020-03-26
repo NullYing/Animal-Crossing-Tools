@@ -1,13 +1,13 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+	<van-tabs class="tabs" active="{{ active }}" tab-class="tab-class" nav-class="nav-class" bind:change="onChange">
+		<van-tab title="鱼类图鉴">
+		</van-tab>
+		<van-tab title="昆虫图鉴">
+    </van-tab>
+	</van-tabs>
+	<van-radio-group class="radio-class" value="{{ radio }}" bind:change="onChange">
+		<van-radio name="1">北半球</van-radio>
+		<van-radio name="2">南半球</van-radio>
+	</van-radio-group>
 </view>
